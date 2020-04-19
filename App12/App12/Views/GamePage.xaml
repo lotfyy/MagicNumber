@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="App12.Views.GamePage"
+             BackgroundColor="#f4c723">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Devinez le" 
+                Margin="0,100,0,0"
+                HorizontalOptions="Center" 
+                FontSize="30"
+                TextColor="#60593b" />
+            <Label Text="Nombre magique" 
+                HorizontalOptions="Center" 
+                FontSize="30"
+                TextColor="#60593b"   
+                   />
+
+            <Label Text="Entre x et x" 
+                x:Name="minMaxLabel"
+                HorizontalOptions="Center" 
+                FontAttributes="Italic"
+                TextColor="#60593b" 
+                FontSize="20"
+                   />
+
+            <Entry                 
+                Margin="0,30,0,0"
+                x:Name="numberEntry"
+                Keyboard="Numeric"
+                FontSize="80" 
+                HorizontalOptions="Center"
+                HorizontalTextAlignment="Center"
+                WidthRequest="120"
+                BackgroundColor="#dcb51a"/>
+
+            <Button Text="DEVINER" 
+                BackgroundColor="#dcb51a"    
+                Clicked="Button_Clicked"
+                HorizontalOptions="Center"
+                WidthRequest="120"
+                TextColor="White"    
+                 />
+            <BoxView 
+                Margin="-10,145,-10,-30"
+                Color="#dcb51a" 
+                HeightRequest="100"
+                Rotation="-10"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

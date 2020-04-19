@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="App12.Views.HomePage"
+             BackgroundColor="#f4c723">
+    <ContentPage.Content>
+        <StackLayout>
+            <Image  x:Name="img"  Source="magie.png"  HeightRequest="150" Margin="0,50,0,0"/>
+            <Frame BackgroundColor="Transparent" HasShadow="False" VerticalOptions="FillAndExpand">
+                <StackLayout>
+                    <Label          
+                        Margin="0,20,0,0" 
+                        VerticalOptions="Center " 
+                        Text="Le nombre" 
+                        HorizontalOptions="Center" 
+                        FontSize="50"              
+                        TextColor="#60593b" />
+                    <Label                       
+                        VerticalOptions="Center " 
+                        Text="magique" 
+                        HorizontalOptions="Center" 
+                        FontSize="50"
+                        TextColor="#60593b" />
+
+                    <Button 
+                        x:Name="btn"
+                        Text="Jouer" 
+                        Margin="0,20,0,0"
+                        BackgroundColor="#dcb51a"    
+                        Clicked="Play_Button_Clicked"
+                        HorizontalOptions="Center"
+                        WidthRequest="120" />
+
+                </StackLayout>
+            </Frame>
+            <BoxView 
+                Margin="-10,0,-10,-30"
+                Color="#dcb51a" 
+                HeightRequest="100"
+                Rotation="-10"/>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
+
+

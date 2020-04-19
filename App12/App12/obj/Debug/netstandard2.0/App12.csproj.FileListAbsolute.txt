@@ -1,0 +1,17 @@
+C:\Users\Pow\source\repos\App12\App12\App12\bin\Debug\netstandard2.0\App12.deps.json
+C:\Users\Pow\source\repos\App12\App12\App12\bin\Debug\netstandard2.0\App12.dll
+C:\Users\Pow\source\repos\App12\App12\App12\bin\Debug\netstandard2.0\ref\App12.dll
+C:\Users\Pow\source\repos\App12\App12\App12\bin\Debug\netstandard2.0\App12.pdb
+C:\Users\Pow\source\repos\App12\App12\App12\obj\Debug\netstandard2.0\App12.csprojAssemblyReference.cache
+C:\Users\Pow\source\repos\App12\App12\App12\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Pow\source\repos\App12\App12\App12\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\Pow\source\repos\App12\App12\App12\obj\Debug\netstandard2.0\App12.csproj.CoreCompileInputs.cache
+C:\Users\Pow\source\repos\App12\App12\App12\obj\Debug\netstandard2.0\App12.AssemblyInfoInputs.cache
+C:\Users\Pow\source\repos\App12\App12\App12\obj\Debug\netstandard2.0\App12.AssemblyInfo.cs
+C:\Users\Pow\source\repos\App12\App12\App12\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Pow\source\repos\App12\App12\App12\obj\Debug\netstandard2.0\App12.dll
+C:\Users\Pow\source\repos\App12\App12\App12\obj\Debug\netstandard2.0\ref\App12.dll
+C:\Users\Pow\source\repos\App12\App12\App12\obj\Debug\netstandard2.0\App12.pdb
+C:\Users\Pow\source\repos\App12\App12\App12\obj\Debug\netstandard2.0\Views\GamePage.xaml.g.cs
+C:\Users\Pow\source\repos\App12\App12\App12\obj\Debug\netstandard2.0\Views\HomePage.xaml.g.cs
+C:\Users\Pow\source\repos\App12\App12\App12\obj\Debug\netstandard2.0\Views\WinPage.xaml.g.cs
